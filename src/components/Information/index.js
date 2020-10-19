@@ -57,9 +57,9 @@ const Information = (props) => {
 	};
 
 	const putContent = () => {
-		// if (error) {
-		// 	return <h1>Error: {error}</h1>;
-		// }
+		if (error) {
+			return <h1>Error: {error}</h1>;
+		}
 		return (
 			<div className='info__container'>
 				<div className='info__container-image'>

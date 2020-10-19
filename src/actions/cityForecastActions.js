@@ -9,7 +9,7 @@ export const getHistoryCity = (city) => async (
 	dispatch
 ) => {
 	const url = {
-		host: 'http://api.openweathermap.org/data/2.5/',
+		host: 'https://api.openweathermap.org/data/2.5/',
 		api_key: '73bc99d5366df7dcfa0974bd630d9022',
 		cnt: 7,
 		city: city,
