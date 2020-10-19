@@ -6,12 +6,7 @@ import './style.css';
 import { FiSearch } from 'react-icons/fi';
 
 const Search = (props) => {
-	const {
-		cityReducer,
-		cityHistoryReducer,
-		getCity,
-		getHistoryCity,
-	} = props;
+	const { getCity, getHistoryCity } = props;
 	const [cityName, setCityName] = useState({
 		name: '',
 	});
